@@ -1,5 +1,8 @@
 <?php
 
+//Load Composer's autoloader
+require 'vendor/autoload.php';
+
 require 'includes/init.php';
 
 $conn = require 'includes/db.php';
